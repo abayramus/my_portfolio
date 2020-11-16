@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Techproed Project</title>
+     <!-- Linking fontawesome to the framework -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+     <!-- Adding ubuntu google fonts -->
+     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+     <!-- We want to use external file
+     We need to import that path to index.html -->
+     <link rel="stylesheet" href="css/bootstrap.css">
+     <!-- When I use same bootstrap class name in my-style.css
+     It will overwrite bottstap class
+     This make us modify the bootstrap classes -->
+     <link rel="stylesheet" href="css/my-style.css">
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.js" integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg=" crossorigin="anonymous"></script>
+     <script src="js/bootstrap.js"></script>
+
+    <style>
+      body{
+        margin:2% 10%;
+      }
+      .profile-pic{
+        width:150px;
+        height:150px;
+      }
+      .about-me{
+        padding:2% 2%;
+        background-color:#cffffe;
+      }
+      .about-me-text{
+        padding-left:2rem;
+      }
+
+      .my-hobbies{
+        padding: 2% 2%;
+        background-color:#f9f7d9;
+      }
+
+      .my-hobbies-text{
+        padding-right:2rem;
+      }
+
+      .my-hobby-pic{
+        width:150px;
+        height:150px;
+      }
+
+      .prog-languages{
+        padding: 2% 2%;
+        background-color:#fce2ce;
+      }
+
+      .prog-languages-text{
+        padding-left:2rem;
+      }
+
+      .prog-languages-img{
+        width:150px;
+        height:150px;
+      }
+      
+      .profile-img{
+
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="about-me">
+      <table>
+        <tr>
+          <td><img class="profile-pic" src="images/avatar.jpeg" alt=""></td>
+          <td class="about-me-text"><h1>About Me</h1>
+          Hi My Name is Ahmet. I am working at Techproed. I am interested in learning new technologies. I am open minded, and a good team player. etc...
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="my-hobbies">
+      <table>
+        <tr>
+          <td class="my-hobbies-text"><h1>My Hobbies</h1>
+           Wtire your hobbies 
+            <br /> You can list your hobbies in her write as many hobby as you want. You can list your hobbies in her write as many hobby as you want.
+          </td>
+          <td><img class="my-hobby-pic" src="images/hobbies.jpg" alt=""></td>
+        </tr>
+      </table>
+    </div>
+    <div class="prog-languages">
+      <table>
+        <tr></tr>
+          <td><img class="prog-languages-img" src="images/language.png" alt=""></td>
+          <td class="prog-languages-text"><h1>My Skills</h1>
+           Hi I know some of the best up to date technologies. I am still trying to catch up the fast chaning technology etc...
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col bg-info">
+            <h1>My Languages</h1>
+            <p class="text-light">I know many langiages etc...</p>
+            <img class="profile-img float-right mb-4" src="images/avatar.jpeg" alt="">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
